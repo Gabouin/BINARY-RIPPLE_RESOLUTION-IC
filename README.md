@@ -1,4 +1,4 @@
-# RESOLUTION-IC
+# 14-Bit Binary Ripple Counter using IC
 
 ## The main idea
 
