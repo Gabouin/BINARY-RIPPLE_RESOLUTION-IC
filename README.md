@@ -2,7 +2,7 @@
 
 ## The main idea
 
-After looking for examples on Google, I had the idea to make like a **Binary meter with LEDs**. I am going to use an ***NE555*** and ***CD4020***. It's bacically binary logic and clock generation using classic **CMOS and Timer integrated circuits**. The NE555 is configured in astable mode and act as the system's heartbeat. The CD2040 receive the clock pulses and each stage of the counter **divides the frequency** of the previous one by two. By adding LEDs, we can create a **visual representation** of binary increments.
+After looking for examples on Google, I had the idea to make like a **Binary counter with LEDs**. I am going to use an ***NE555*** and ***CD4020***. It's bacically binary logic and clock generation using classic **CMOS and Timer integrated circuits**. The NE555 is configured in astable mode and act as the system's heartbeat. The CD2040 receive the clock pulses and each stage of the counter **divides the frequency** of the previous one by two. By adding LEDs, we can create a **visual representation** of binary increments.
 
 ## Features
 ***Visual Feedback*** : 12 LEDs displaying the counting sequence from $2^0$ to $2^{13}$.  
