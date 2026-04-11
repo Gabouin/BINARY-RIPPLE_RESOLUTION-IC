@@ -1,11 +1,11 @@
-# 12-Bit Binary Ripple Counter using IC
+# 14-Bit Binary Ripple Counter using IC
 
 ## The main idea
 
 After looking for examples on Google, I had the idea to make like a **Binary meter with LEDs**. I am going to use an ***NE555*** and ***CD4020***. It's bacically binary logic and clock generation using classic **CMOS and Timer integrated circuits**. The NE555 is configured in astable mode and act as the system's heartbeat. The CD2040 receive the clock pulses and each stage of the counter **divides the frequency** of the previous one by two. By adding LEDs, we can create a **visual representation** of binary increments.
 
 ## Features
-***Visual Feedback*** : 12 LEDs displaying the counting sequence from $2^0$ to $2^{11}$.  
+***Visual Feedback*** : 12 LEDs displaying the counting sequence from $2^0$ to $2^{13}$.  
 ***Manual Reset*** : A dedicated switch to clear the counter and restart from ``` 00000000000000 ```.
 
 ## Main Components
@@ -45,7 +45,7 @@ After looking for examples on Google, I had the idea to make like a **Binary met
 
 ## My changes
 
-I changed the instructable connections by having just 12 LEDs to represent the **12 stages the CD4020 has**. I also added a switch between R and +12V to have the possibility to **reset the circuit anytime** ! In the screenshot, the circuit has a 56nF capacitor (really small) to accelerate the process as Falstad is not using real time simulation.  
+I changed the instructable connections by having just 12 LEDs to represent the **14 stages the CD4020 has**. I also added a switch between R and +12V to have the possibility to **reset the circuit anytime** ! In the screenshot, the circuit has a 56nF capacitor (really small) to accelerate the process as Falstad is not using real time simulation.  
 
 For the real circuit, I'll be using 4.7uF for the whole thing to last aprox **10 minutes**. And to easily calibrate everything, I'll also be using +9V instead of +12V
 <br>  
