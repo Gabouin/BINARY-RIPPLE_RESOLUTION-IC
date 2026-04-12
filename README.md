@@ -1,3 +1,6 @@
+
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+
 # 14-Bit Binary Ripple Counter using IC
 
 ## The main idea
