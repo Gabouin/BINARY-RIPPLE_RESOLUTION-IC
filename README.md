@@ -69,7 +69,8 @@ For the real circuit, I'll be using 4.7uF for the whole thing to last aprox **10
 
 ### PCB on KiCad
 
-<img width="625" height="611" alt="image" src="https://github.com/user-attachments/assets/7b4d89ce-9464-4a64-ab24-96e98b210559" />  
+<img width="722" height="665" alt="Capture d&#39;écran 2026-04-15 120002" src="https://github.com/user-attachments/assets/072f2ca3-4444-468c-bc1b-57da9dab0483" />
+
 
 > First step of the PCB, with all components correctly arranged and a GND pour around the LEDs
 <br>
@@ -77,8 +78,8 @@ For the real circuit, I'll be using 4.7uF for the whole thing to last aprox **10
 ### Silckscreen on KiCad
 
 <img width="320" height="350" alt="Capture d&#39;écran 2026-04-12 010734" src="https://github.com/user-attachments/assets/783825f2-2362-49f4-96b6-fe6d9004dc31" />
-<img width="320" height="370" alt="Capture d&#39;écran 2026-04-12 011655" src="https://github.com/user-attachments/assets/243b5bd8-fa14-4666-9166-4cf335dd4716" />
-<img width="320" height="400" alt="Capture d&#39;écran 2026-04-12 011646" src="https://github.com/user-attachments/assets/8564962e-9e53-4424-9701-88216dd1e574" />
+<img width="624" height="584" alt="Capture d&#39;écran 2026-04-15 120036" src="https://github.com/user-attachments/assets/90abdd68-19da-418d-9e1e-4a76a391949d" />
+<img width="528" height="544" alt="Capture d&#39;écran 2026-04-15 120015" src="https://github.com/user-attachments/assets/017aed8c-4339-49ad-8ef7-d41160465f26" />
 
 <br>
 <br>  
