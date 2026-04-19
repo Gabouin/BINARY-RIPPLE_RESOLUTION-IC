@@ -37,12 +37,10 @@ After looking for examples on Google, I had the idea to make like a **Binary cou
 <br>
 
 ### My wiring on [Falstad](https://is.gd/O34XgH) 
-<img width="500" height="420" alt="image" src="https://github.com/user-attachments/assets/bd9257d2-8099-42d3-96d2-e900cc0843c4" />
-
-<br>
 <br>
 
- ![IC](https://github.com/user-attachments/assets/d72ed655-9647-4156-816a-199e91de24b4)
+<img src="https://github.com/user-attachments/assets/d72ed655-9647-4156-816a-199e91de24b4" width=50%>
+
 
 
 
@@ -61,58 +59,35 @@ For the real circuit, I'll be using 4.7uF for the whole thing to last aprox **10
 
 <img width="1210" height="836" alt="image" src="https://github.com/user-attachments/assets/b7f0c6ba-5668-4d20-8305-05f8c41fbeff" />  
 <br>
-<br>
-
 
 > I used the Falstad's diagram I previously showed to make this schematic. 
 <br>
 
 ### PCB on KiCad
+<br>
+<div align=center>
+ <img width=60% alt="Capture d&#39;écran 2026-04-15 120002" src="https://github.com/user-attachments/assets/072f2ca3-4444-468c-bc1b-57da9dab0483" />
+<br>  
+<br>
+First step of the PCB, with all components correctly arranged and a GND pour around the LEDs
+</div>
 
-<img width="722" height="665" alt="Capture d&#39;écran 2026-04-15 120002" src="https://github.com/user-attachments/assets/072f2ca3-4444-468c-bc1b-57da9dab0483" />
-
-
-> First step of the PCB, with all components correctly arranged and a GND pour around the LEDs
 <br>
 
 ### Silckscreen on KiCad
 
-<img width="320" height="350" alt="Capture d&#39;écran 2026-04-12 010734" src="https://github.com/user-attachments/assets/783825f2-2362-49f4-96b6-fe6d9004dc31" />
-<img width="624" height="584" alt="Capture d&#39;écran 2026-04-15 120036" src="https://github.com/user-attachments/assets/90abdd68-19da-418d-9e1e-4a76a391949d" />
-<img width="528" height="544" alt="Capture d&#39;écran 2026-04-15 120015" src="https://github.com/user-attachments/assets/017aed8c-4339-49ad-8ef7-d41160465f26" />
+<div align=center>
+ <table>
+  <tr>
+   <td valign=bottom><img width=80% alt="Capture d&#39;écran 2026-04-12 010734" src="https://github.com/user-attachments/assets/783825f2-2362-49f4-96b6-fe6d9004dc31" /></td>
+<td valign=bottom><img width=90% alt="Capture d&#39;écran 2026-04-15 120036" src="https://github.com/user-attachments/assets/90abdd68-19da-418d-9e1e-4a76a391949d" /></td>
+<td valign=bottom><img width=100% alt="Capture d&#39;écran 2026-04-15 120015" src="https://github.com/user-attachments/assets/017aed8c-4339-49ad-8ef7-d41160465f26" /></td>
+  </tr>
+ </table>
+</div>
 
+
+Each LED represents a specific **power of 2** in the binary system. To find the current decimal value of the counter, simply **add up the values** of all the LEDs that are **currently turned on**.
 <br>
-<br>  
-
-> Each LED represents a specific **power of 2** in the binary system. To find the current decimal value of the counter, simply **add up the values** of all the LEDs that are **currently turned on**.
-> It goes from 1 to 8 because the 2nd and 3rd stage of the CD4020 have no output to show on a LED. However, the time is still respected as the stage are well here.
-
-# LICENCE 
-
-MIT License
-
-Copyright (c) 2026 Gabin Tavernier
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-
-
-
-
+It goes from 1 to 8 because the 2nd and 3rd stage of the CD4020 have no output to show on a LED. However, the **time is still respected** as the stage are well here.
 
